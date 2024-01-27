@@ -1,0 +1,34 @@
+Driver del Controlador del Domini.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar alta document
+Donar baixa document
+Sortir del programa
+Modificar document
+Llistar document
+Llistar Autors
+Llistar per títols
+Llistar segons expressió booleana
+Llistar per similitud
+Crear expressió booleana
+Donar d'alta expressió booleana
+Donar de baixa expressió booleana
+Modificar expressió booleana
+Consultar Document
+Ordenar llistat autors/titols ascendent
+Ordenar llistat autors/titols  descendent
+Ordenar llistat autors
+
+Utilitzem totes les altres classes ja testejades en aquest driver.
+Usem també els altres controladors, donat que el de domini només fa crides a aquests.
+Aquest driver ens serveix per provar tots el mètodes del controlador de domini, i aixi provar totes les funcionalitats implementades.
+
+Fem proves per a cada mètode mirant que el tractament d'excepcions funcioni bé quan calgui, a més de tenir en compte possibles casos conflictius.
+
+A test1.txt tenim uns casos amb documents amb contingut més gran més centrat en la funcionalitat de llistar Documents similars, buscant casos diferents
+especialment escollits pensant en les dues estratègies de càlcul de similitud entre documents.
+
+A in.txt tot i provar el funcionament correcte de tots els mètodes, ense centrem més en les altes, baixes i modificacions de documents i expressions booleanes
+amb els metodes necessaris per a comprovar que les operacions han fet el que desitjavem.
+
+

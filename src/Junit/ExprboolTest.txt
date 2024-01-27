@@ -1,0 +1,9 @@
+Es prova la classe AutorTest.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar d'alta Expressio Booleana
+Modificar Expressio Booleana
+
+No hi ha elements integrats ni stubs al test d'aquesta classe.
+
+Es prova el mètode per diferents valors de l'expressió booleana usant tots els operadors possibles.

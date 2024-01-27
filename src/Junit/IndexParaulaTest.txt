@@ -1,0 +1,13 @@
+Es prova la classe IndexParaula.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar d'alta Document
+Donar de baixa Document
+modificar Document.
+Llistar per similitud.
+
+No hi ha classes integrades.
+S'utilitza un stub de la classe Paraula.
+
+Es proven tots els mètodes, per diferents paraules i documents.
+Buscant diferents situacions en quant a ocurrencies i valor Tf-Idf de les paraules.

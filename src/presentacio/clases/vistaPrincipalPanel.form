@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacio.clases.vistaPrincipalPanel">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="37" bottom="25" right="37"/>
+    <constraints>
+      <xy x="20" y="20" width="1020" height="741"/>
+    </constraints>
+    <properties>
+      <background color="-13948117"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="45479" binding="busqueda_salir" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13948117"/>
+          <enabled value="true"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="58176" binding="barrabusqueda" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="837" height="88"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13948117"/>
+              <foreground color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="53fbb" class="javax.swing.JComboBox" binding="filtro">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12236470"/>
+                  <foreground color="-3289651"/>
+                  <model>
+                    <item value="Autor"/>
+                    <item value="Titols Autor"/>
+                    <item value="Paraula"/>
+                    <item value="Expresio Booleana"/>
+                    <item value="Expresions Guardades"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="38d49" class="javax.swing.JTextField" binding="busqueda">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-3289651"/>
+                  <font style="1"/>
+                  <foreground color="-12236470"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="57331" class="javax.swing.JButton" binding="buscarButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12236470"/>
+                  <foreground color="-3289651"/>
+                  <text value="Buscar"/>
+                </properties>
+              </component>
+              <grid id="e9256" binding="opcionsBusquedaExprBool" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8cdce" class="javax.swing.JRadioButton" binding="nameExprRadioButton">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-6315356"/>
+                      <text value="Búsqueda per nom"/>
+                    </properties>
+                  </component>
+                  <component id="777fc" class="javax.swing.JButton" binding="guardarExprBoolButton" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12236470"/>
+                      <foreground color="-3289651"/>
+                      <text value="Guardar ExprBool"/>
+                    </properties>
+                  </component>
+                  <component id="2c483" class="javax.swing.JRadioButton" binding="rawExprRadioButton">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-6315356"/>
+                      <selected value="true"/>
+                      <text value="Búsqueda per expressió"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="28185" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                  <foreground color="-6315356"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="3a75e" class="javax.swing.JButton" binding="ordenarKDocsButton" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12236470"/>
+                      <enabled value="true"/>
+                      <foreground color="-3289651"/>
+                      <horizontalAlignment value="0"/>
+                      <text value="Similaritat"/>
+                    </properties>
+                  </component>
+                  <component id="7dd07" class="javax.swing.JButton" binding="ordenarAButton" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12236470"/>
+                      <foreground color="-3289651"/>
+                      <horizontalAlignment value="0"/>
+                      <text value="Alfabèticament ↓"/>
+                    </properties>
+                  </component>
+                  <component id="217ce" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-1"/>
+                      <text value="Ordenar resultats:"/>
+                    </properties>
+                  </component>
+                  <component id="5f445" class="javax.swing.JButton" binding="ordenarFButton" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12236470"/>
+                      <foreground color="-3289651"/>
+                      <horizontalAlignment value="0"/>
+                      <text value="Núm docs"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="ec528" binding="resultado_salir" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="837" height="342"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13948117"/>
+            </properties>
+            <border type="none">
+              <color color="-16777216"/>
+            </border>
+            <children>
+              <grid id="583bc" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                  <foreground color="-6315356"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="70973" class="javax.swing.JLabel" binding="resultadosLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1"/>
+                      <text value="Resultados"/>
+                    </properties>
+                  </component>
+                  <scrollpane id="20c42">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="d5a37" class="javax.swing.JList" binding="listaResultados">
+                        <constraints/>
+                        <properties>
+                          <background color="-11908534"/>
+                          <foreground color="-1"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+              <grid id="746c9" binding="optionsPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="71e53" binding="botonesconsulta" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <card name="Card1"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <font style="1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="4d88b" class="javax.swing.JButton" binding="eliminarButton" default-binding="true">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12236470"/>
+                          <foreground color="-3289651"/>
+                          <text value="Eliminar"/>
+                        </properties>
+                      </component>
+                      <component id="27e13" class="javax.swing.JButton" binding="sortirButton" default-binding="true">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="50" height="30"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3289651"/>
+                          <foreground color="-12236470"/>
+                          <text value="Sortir"/>
+                        </properties>
+                      </component>
+                      <grid id="27282" binding="buscarkdoc" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13948117"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="5ad2b" class="javax.swing.JTextField" binding="intkdoc">
+                            <constraints>
+                              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="70" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-6315356"/>
+                              <font style="1"/>
+                              <foreground color="-13948117"/>
+                              <text value="5"/>
+                            </properties>
+                          </component>
+                          <component id="3923e" class="javax.swing.JRadioButton" binding="bagOfWordsRadioButton" default-binding="true">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13948117"/>
+                              <foreground color="-6315356"/>
+                              <text value="Bag of Words"/>
+                            </properties>
+                          </component>
+                          <component id="bee97" class="javax.swing.JRadioButton" binding="TFIDFRadioButton" default-binding="true">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13948117"/>
+                              <foreground color="-6315356"/>
+                              <selected value="true"/>
+                              <text value="TF-IDF"/>
+                            </properties>
+                          </component>
+                          <component id="997a3" class="javax.swing.JLabel" binding="ksim">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-6315356"/>
+                              <text value="int K:"/>
+                            </properties>
+                          </component>
+                          <component id="2c76c" class="javax.swing.JButton" binding="buscarSimilitudButton" default-binding="true">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-12236470"/>
+                              <foreground color="-3289651"/>
+                              <text value="Buscar Similitud"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="1f998" class="javax.swing.JButton" binding="modificarButton">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12236470"/>
+                          <enabled value="true"/>
+                          <foreground color="-3289651"/>
+                          <text value="Modificar"/>
+                        </properties>
+                      </component>
+                      <vspacer id="7910c">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <vspacer id="5af2c">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <vspacer id="1240c">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <vspacer id="365ef">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="8cdce"/>
+      <member id="2c483"/>
+    </group>
+  </buttonGroups>
+</form>

@@ -1,0 +1,202 @@
+0
+Miquel
+El señor de los Anillos
+Aquest document es un test. El qual es correcte 23 cops. test test test test test test test.
+0
+Miquel
+Document
+test test test test test test test test.
+0
+Adria
+El señor de los Anillos
+Test 2.
+0
+Adria
+Test
+Aquest document es un test 222. El qual es correcte 23 cops.
+0
+Albert Cases
+Ciencia Ficcio
+ciencia ficcio al quadrat test test test test test test test.
+0
+
+
+Lorem ipsum
+0
+Adria
+Test
+Repetit
+0
+Jo
+TestEB
+p1 p2 p3 pep
+0
+Jo
+TestEB2
+p1 p2 p3 hola adéu
+3
+5
+4
+Mi
+4
+A
+6
+Miquel
+6
+Adria
+6
+Albert Cases
+6
+
+9
+
+
+9
+Albert Cases
+Ciencia Ficcio
+9
+Adria
+El señor de los Anillos
+9
+Miquel
+Document
+9
+Miquel
+El señor de los Anillos
+9
+Adria
+Test
+8
+test
+8
+quadrat
+8
+cosa
+7
+Miquel
+El señor de los Anillos
+3
+1
+7
+Miquel
+El señor de los Anillos
+3
+2
+7
+Adria
+El señor de los Anillos
+10
+2
+15
+0
+15
+1
+5
+14
+0
+14
+1
+10
+Expr7
+!test
+16
+Expr7
+10
+Expr2
+test & quadrat
+10
+Expr5
+test | quadrat
+10
+Expr3
+{p1 p2 p3} & ("hola adéu" | pep) & !joan
+10
+Expr3
+!joan
+10
+Expr4
+&&Hola
+13
+12
+Expr2
+test & ciencia
+12
+Expr4
+hola
+13
+16
+Expr2
+12
+Expr2
+test & Aquest
+16
+Expr2
+16
+Expr5
+16
+Expr3
+11
+Expr6
+11
+Expr1
+13
+1
+Miquel
+El señor de los Anillos
+1
+
+
+1
+Miquel
+Document
+1
+Manel
+El señor de los Anillos
+1
+Adria
+Test
+1
+Adria
+Test
+3
+5
+6
+Miquel
+6
+Adria
+6
+Albert Cases
+6
+
+9
+
+
+9
+Albert Cases
+Ciencia Ficcio
+9
+Adria
+El señor de los Anillos
+9
+Miquel
+Document
+9
+Adria
+Test
+2
+Miquel
+document
+test excepcio
+2
+Adria
+Test
+test excepcio
+2
+Adria
+El señor de los Anillos
+El señor de los Anillos
+9
+Adria
+El señor de los Anillos
+3
+17

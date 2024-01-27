@@ -1,0 +1,12 @@
+Es prova la classe ConjuntExprBool.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar d'alta Expressió Booleana
+Donar de baixa Expressió Booleana
+Modificar Expressió Booleana
+Llistar per Expressió Booleana
+
+Tenim integrada la classe ExprBool.java ja testejada.
+Tenim un stub de la classe BooleanParser.java.
+
+Es proven tots els mètodes, amb diferents noms i valors d'expressions booleanes.

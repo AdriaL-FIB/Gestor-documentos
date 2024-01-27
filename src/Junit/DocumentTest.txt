@@ -1,0 +1,12 @@
+Es prova la classe Document.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Llistar per Simulitud
+Donar d'alta Document
+Modificar Document
+Llistar per expressió booleana
+
+Utilitzem la classe Pair.java ja testejada.
+Utilitzem el stub de la classe Filtrador.
+
+Es proven tots els mètodes, per diferents continguts dels documents.

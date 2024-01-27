@@ -1,0 +1,87 @@
+0
+Wikipedia
+John Napier
+John Napier havia sigut un actiu predicador durant la seva estada a St. Andrews. L'escocès tenia profunds interessos per la religió i l'astronomia i una gran preocupació per l'exegasi de l'Apocalipsi, aquesta obsessió la va plasmar a través de la seva obra Revelació de Sant Joan (1593) dedicada al rei Jaume I. Amb aquest llibre va ser capaç d'involucrar-se més en la vida política i religiosa de l'època.
+0
+Wikipedia
+Isaac Newton
+Newton és l'autor dels Philosophiae Naturalis Principia Mathematica (Principis Matemàtics de la Filosofia Natural), publicat per primera vegada en 1687. En ell descriu la llei de la gravitació universal i les tres lleis del moviment, base de la mecànica clàssica. Newton fou el primer que demostrà que les lleis naturals governen els moviments de la Terra i dels objectes celestes. Newton també va crear un model matemàtic per a les lleis de Kepler del moviment dels planetes a partir de la llei de la gravitació universal. Així, va ampliar-les demostrant-ne que les òrbites (com les dels estels amb cua) no eren solament el·líptiques sinó que també podien ser hiperbòliques i parabòliques.
+0
+Wikipedia
+René Descartes
+René Descartes (Renatus Cartesius en llatí) (Le Haye, França, 31 de març de 1596 - Estocolm, Suècia, 11 de febrer de 1650), va ser un important filòsof racionalista francès del segle xvii, també conegut per les seves obres de matemàtiques i de diferents branques de la ciència. És considerat el pare de la filosofia moderna, en ser el primer a proposar el problema de la validesa del coneixement com a primera qüestió filosòfica, i una de les figures clau de la revolució científica. És responsable, entre altres coses, de la geometria analítica, de la generalització de l'ús del mot idea amb el significat de 'contingut de la ment humana', la invenció de les coordenades cartesianes o de la sentència cogito ergo sum ('penso, aleshores existeixo'), a partir de la qual construeix el seu pensament filosòfic. Va néixer a La Haye en Touraine (poble actualment denominat Descartes, després de més d'un segle anomenant-se La Haye-Descartes), França, al voltant del 31 de març de 1596, i va morir a Estocolm l'11 de febrer de 1650.
+
+0
+Regnits
+s1
+Hola Hola Hola Hola Hola Hola bon dia, pot estas? Espero pot que molt be. Avui pot m'agradaria anar a jugar a futbol.
+0
+Regnits
+s2
+HOLA BON DIA, com pot ESTAS? ESPERO com pot QUE MOLT BE. AVUI com pot M'AGRADARIA ANAR A JUGAR A FUTBOL.
+0
+Regnits
+s3
+Hola bon dia, com pot esta? Espero que com pot molt malament. Avui com pot m'agradaria anar a jugar a basquet.
+0
+Regnits
+s4
+
+0
+Regnits
+s5
+hola avui jugare com al futbol, i tambe anire a estudiar a la biblioteca. Agradaria.
+0
+Regnits
+s6
+Hola como estas
+0
+Regnits
+s7
+   .
+
+5
+
+7
+Wikipedia
+René Descartes
+9
+1
+
+7
+Wikipedia
+René Descartes
+9
+2
+
+7
+Regnits
+s1
+9
+1
+
+
+0
+Jo
+TestEB
+p1 p2 p3 pep
+0
+Jo
+TestEB2
+p1 p2 p3 hola adéu
+
+10
+Exp1
+{p1 p2 p3} & ("hola adéu" | pep) & !joan
+
+16
+Exp1
+
+10
+Exp2
+!test
+
+16
+Exp2
+
+-1

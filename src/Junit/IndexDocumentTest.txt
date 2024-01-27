@@ -1,0 +1,14 @@
+Es prova la classe IndexDocument.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar d'alta Document
+Donar de baixa Document
+modificar Document
+Llistar similars
+Consultar Document
+
+
+Utilitzem la classe Pair ja testejada.
+Utilitzem un stub de la classe Document.java.
+
+Es proven tots els mètodes, per diferents continguts amb diferent número de frases i diferents ids, títol i autor.

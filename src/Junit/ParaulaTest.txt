@@ -1,0 +1,11 @@
+Es prova la classe Paraula.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar d'alta Document.
+Donar de baixa Document.
+Modificar Document.
+Llistar per similitud
+
+No hi ha elements integrats ni stubs al test d'aquesta classe.
+
+Es proven tots els mètodes, per diferents paraules amd diferents números d'ocurrències, havent-hi al Sistema un diferent nombre de documents.

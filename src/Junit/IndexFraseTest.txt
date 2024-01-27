@@ -1,0 +1,11 @@
+Es prova la classe IndexFrase.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar d'alta Document
+Donar de baixa Document
+modificar Document
+
+
+No hi ha elements integrats ni stubs al test d'aquesta classe.
+
+Es proven tots els mètodes, per diferents paraules i documents amb diferents frases.

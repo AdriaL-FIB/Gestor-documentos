@@ -1,0 +1,14 @@
+Es prova la classe AutorTest.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar d'alta Document
+Donar de baixa Document
+Llistar per Títols
+Llistar Autors
+Llistar Autors començats per un prefix.
+
+No hi ha stubs.
+Usem la classe Autor.java ja testejada.
+
+Es proven tots els mètodes, per strings buit, d'una paraula o de vàries, tant pel nom de l'autor com el seu títol.
+A més de diversos números de títols per Autor(0,1,1+).

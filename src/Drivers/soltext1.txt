@@ -1,0 +1,44 @@
+Driver del Controlador de Domini:
+
+Quin mètode vols provar?
+-1. res
+0. donarAltaDocument
+1. donarBaixaDocument
+2. modificardocument
+3. numDocs
+4. llistarAutorsPrefix
+5. llistarAutors
+6. llistarTitolsAutor
+7. llistarDocumentsSimilars
+8. llistaDocumentsParaula
+9. obtenirContingut
+10.donarAltaExprBool
+11.donarBaixaExprBool
+12.modificarExprBool
+13.llistarExprBooleanas
+14.ordenarAlfabeticament
+15.ordenarLlistaAlfabeticamentepairs
+16.llistarDocumentsExprBool
+17.sortir
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Error no has introduit un número.

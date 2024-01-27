@@ -1,0 +1,11 @@
+Test de la classe BooleanParser.java
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar d'alta Expressió Booleana.
+Modificar Expressió Booleana.
+
+No hi ha stubs.
+Fa ús de la classe ExprBool.java ja testejada.
+
+
+Es proven el mètode públic que hi ha per diferents expressions booleanes usant tots els operadors permesos.

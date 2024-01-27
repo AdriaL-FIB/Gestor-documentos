@@ -1,0 +1,10 @@
+Es prova la classe Filtrador.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Donar d'alta Document
+modificar Document
+
+No hi ha elements integrats ni stubs al test d'aquesta classe.
+
+Es proven tots els mètodes, per strings buit, d'una paraula o de vàries.
+Amb stopWords i sense. I per diferents separadors (espai, signes puntuacio,etc.).

@@ -1,0 +1,573 @@
+Driver del Controlador de Domini:
+
+Quin mètode vols provar?
+-1. res
+0. donarAltaDocument
+1. donarBaixaDocument
+2. modificardocument
+3. numDocs
+4. llistarAutorsPrefix
+5. llistarAutors
+6. llistarTitolsAutor
+7. llistarDocumentsSimilars
+8. llistaDocumentsParaula
+9. obtenirContingut
+10.donarAltaExprBool
+11.donarBaixaExprBool
+12.modificarExprBool
+13.llistarExprBooleanas
+14.ordenarAlfabeticament
+15.ordenarLlistaAlfabeticamentepairs
+16.llistarDocumentsExprBool
+17.sortir
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+Nom d'autor no pot ser buit
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+Error el document que has intentat donar d'alta ja existeix.
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Test donarAltaDocument
+
+Introdueix:
+Autor
+Titol
+Contingut
+
+Test numDocs
+Número de Documents :7
+
+
+Test llistarAutors
+Autors:
+1 : Adria
+2 : Jo
+3 : Miquel
+4 : Albert Cases
+
+Test llistarAutorsPrefix
+
+Introdueix:
+Prefix
+1 : Miquel
+
+Test llistarAutorsPrefix
+
+Introdueix:
+Prefix
+1 : Adria
+2 : Albert Cases
+
+Test llistarTitolsAutor
+
+Introdueix:
+Autor
+Titols:
+1 : Document
+2 : El señor de los Anillos
+
+Test llistarTitolsAutor
+
+Introdueix:
+Autor
+Titols:
+1 : Test
+2 : El señor de los Anillos
+
+Test llistarTitolsAutor
+
+Introdueix:
+Autor
+Titols:
+1 : Ciencia Ficcio
+
+Test llistarTitolsAutor
+
+Introdueix:
+Autor
+Error l'autor indicat no existeix.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Error el document indicat no existeix.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Contingut del Document: Albert Cases
+Ciencia Ficcio
+ciencia ficcio al quadrat test test test test test test test.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Contingut del Document: Adria
+El señor de los Anillos
+Test 2.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Contingut del Document: Miquel
+Document
+test test test test test test test test.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Contingut del Document: Miquel
+El señor de los Anillos
+Aquest document es un test. El qual es correcte 23 cops. test test test test test test test.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Contingut del Document: Adria
+Test
+Aquest document es un test 222. El qual es correcte 23 cops.
+
+Test llistarDocumentsParaula
+
+Introdueix:
+Paraula
+Document 1 Autor Miquel Titol El señor de los Anillos
+Document 2 Autor Miquel Titol Document
+Document 3 Autor Adria Titol El señor de los Anillos
+Document 4 Autor Adria Titol Test
+Document 5 Autor Albert Cases Titol Ciencia Ficcio
+
+Test llistarDocumentsParaula
+
+Introdueix:
+Paraula
+Document 1 Autor Albert Cases Titol Ciencia Ficcio
+
+Test llistarDocumentsParaula
+
+Introdueix:
+Paraula
+La paraula indicada no apareix a cap document.
+
+Test llistarDocumentsSimilars
+
+Introdueix:
+Autor
+Titol
+Número de Documents Similars
+Estratègia: 1. Tf-Idf Altrament. Bag of words
+Document 1 Autor Miquel Titol Document
+Document 2 Autor Adria Titol Test
+Document 3 Autor Adria Titol El señor de los Anillos
+
+Test llistarDocumentsSimilars
+
+Introdueix:
+Autor
+Titol
+Número de Documents Similars
+Estratègia: 1. Tf-Idf Altrament. Bag of words
+Document 1 Autor Miquel Titol Document
+Document 2 Autor Albert Cases Titol Ciencia Ficcio
+Document 3 Autor Adria Titol Test
+
+Test llistarDocumentsSimilars
+
+Introdueix:
+Autor
+Titol
+Número de Documents Similars
+Estratègia: 1. Tf-Idf Altrament. Bag of words
+Document 1 Autor Miquel Titol El señor de los Anillos
+Document 2 Autor Miquel Titol Document
+Document 3 Autor Adria Titol Test
+Document 4 Autor Albert Cases Titol Ciencia Ficcio
+Document 5 Autor Jo Titol TestEB
+Document 6 Autor Jo Titol TestEB2
+
+Test ordenarLlistaAlfabeticamentepairs
+
+Introdueix:
+0 Si vols ordre creixent, 1 si vols ordre per similitud o qualsevol altre si vols ordre per pes:
+Document 1 Autor Miquel Titol El señor de los Anillos
+Document 2 Autor Miquel Titol Document
+Document 3 Autor Jo Titol TestEB
+Document 4 Autor Jo Titol TestEB2
+Document 5 Autor Albert Cases Titol Ciencia Ficcio
+Document 6 Autor Adria Titol Test
+
+Test ordenarLlistaAlfabeticamentepairs
+
+Introdueix:
+0 Si vols ordre creixent, 1 si vols ordre per similitud o qualsevol altre si vols ordre per pes:
+Document 1 Autor Miquel Titol El señor de los Anillos
+Document 2 Autor Miquel Titol Document
+Document 3 Autor Jo Titol TestEB
+Document 4 Autor Jo Titol TestEB2
+Document 5 Autor Albert Cases Titol Ciencia Ficcio
+Document 6 Autor Adria Titol Test
+
+Test llistarAutors
+Autors:
+1 : Adria
+2 : Jo
+3 : Miquel
+4 : Albert Cases
+
+Test ordenarAlfabeticament
+
+Introdueix:
+0 Si vols ordre creixent, o un altre número si vols ordre decreixent:
+1 : Adria
+2 : Albert Cases
+3 : Jo
+4 : Miquel
+
+Test ordenarAlfabeticament
+
+Introdueix:
+0 Si vols ordre creixent, o un altre número si vols ordre decreixent:
+1 : Miquel
+2 : Jo
+3 : Albert Cases
+4 : Adria
+
+Test donarAltaExprBool
+
+Introdueix nom de la Expressio Booleana:
+Introdueix el valor de la Expressio Booleana:
+
+Test llistarDocumentsExprBool
+
+Introdueix:
+Expressio Booleana
+Document 1 Autor Miquel Titol El señor de los Anillos
+Document 2 Autor Miquel Titol Document
+Document 3 Autor Adria Titol El señor de los Anillos
+Document 4 Autor Adria Titol Test
+Document 5 Autor Albert Cases Titol Ciencia Ficcio
+Document 6 Autor Jo Titol TestEB
+Document 7 Autor Jo Titol TestEB2
+
+Test donarAltaExprBool
+
+Introdueix nom de la Expressio Booleana:
+Introdueix el valor de la Expressio Booleana:
+
+Test donarAltaExprBool
+
+Introdueix nom de la Expressio Booleana:
+Introdueix el valor de la Expressio Booleana:
+
+Test donarAltaExprBool
+
+Introdueix nom de la Expressio Booleana:
+Introdueix el valor de la Expressio Booleana:
+
+Test donarAltaExprBool
+
+Introdueix nom de la Expressio Booleana:
+Introdueix el valor de la Expressio Booleana:
+Error la expressio booleana ja existeix.
+
+Test donarAltaExprBool
+
+Introdueix nom de la Expressio Booleana:
+Introdueix el valor de la Expressio Booleana:
+Error la expressio booleana no es correcta.
+
+Test llistarExprBooleanas
+
+1 : Expr5
+2 : Expr7
+3 : Expr2
+4 : Expr3
+
+Test modificarExprBool
+
+Introdueix:
+El nom de la expressio Booleana Antiga
+El nou valor de la expressio Booleana
+
+Test modificarExprBool
+
+Introdueix:
+El nom de la expressio Booleana Antiga
+El nou valor de la expressio Booleana
+Error la expressio booleana antiga indicada no existeix.
+
+Test llistarExprBooleanas
+
+1 : Expr5
+2 : Expr7
+3 : Expr2
+4 : Expr3
+
+Test llistarDocumentsExprBool
+
+Introdueix:
+Expressio Booleana
+Document 1 Autor Albert Cases Titol Ciencia Ficcio
+
+Test modificarExprBool
+
+Introdueix:
+El nom de la expressio Booleana Antiga
+El nou valor de la expressio Booleana
+
+Test llistarDocumentsExprBool
+
+Introdueix:
+Expressio Booleana
+Document 1 Autor Miquel Titol El señor de los Anillos
+Document 2 Autor Adria Titol Test
+
+Test llistarDocumentsExprBool
+
+Introdueix:
+Expressio Booleana
+Document 1 Autor Miquel Titol El señor de los Anillos
+Document 2 Autor Miquel Titol Document
+Document 3 Autor Adria Titol El señor de los Anillos
+Document 4 Autor Adria Titol Test
+Document 5 Autor Albert Cases Titol Ciencia Ficcio
+
+Test llistarDocumentsExprBool
+
+Introdueix:
+Expressio Booleana
+Document 1 Autor Jo Titol TestEB
+Document 2 Autor Jo Titol TestEB2
+
+Test donarBaixaExprBool
+
+Introdueix nom de la Expressio Booleana:
+Error la expressio booleana indicada no existeix.
+
+Test donarBaixaExprBool
+
+Introdueix nom de la Expressio Booleana:
+Error la expressio booleana indicada no existeix.
+
+Test llistarExprBooleanas
+
+1 : Expr5
+2 : Expr7
+3 : Expr2
+4 : Expr3
+
+Test donarBaixaDocument
+
+Introdueix:
+Autor
+Titol
+
+Test donarBaixaDocument
+
+Introdueix:
+Autor
+Titol
+Error el document que has intentat donar de baixa no existeix.
+
+Test donarBaixaDocument
+
+Introdueix:
+Autor
+Titol
+
+Test donarBaixaDocument
+
+Introdueix:
+Autor
+Titol
+Error el document que has intentat donar de baixa no existeix.
+
+Test donarBaixaDocument
+
+Introdueix:
+Autor
+Titol
+
+Test donarBaixaDocument
+
+Introdueix:
+Autor
+Titol
+Error el document que has intentat donar de baixa no existeix.
+
+Test numDocs
+Número de Documents :4
+
+
+Test llistarAutors
+Autors:
+1 : Adria
+2 : Jo
+3 : Albert Cases
+
+Test llistarTitolsAutor
+
+Introdueix:
+Autor
+Error l'autor indicat no existeix.
+
+Test llistarTitolsAutor
+
+Introdueix:
+Autor
+Titols:
+1 : El señor de los Anillos
+
+Test llistarTitolsAutor
+
+Introdueix:
+Autor
+Titols:
+1 : Ciencia Ficcio
+
+Test llistarTitolsAutor
+
+Introdueix:
+Autor
+Error l'autor indicat no existeix.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Error el document indicat no existeix.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Contingut del Document: Albert Cases
+Ciencia Ficcio
+ciencia ficcio al quadrat test test test test test test test.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Contingut del Document: Adria
+El señor de los Anillos
+Test 2.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Error el document indicat no existeix.
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Error el document indicat no existeix.
+
+Test modificarDocument
+
+Introdueix:
+Autor
+Titol
+Nou Contingut
+Error el document que has intentat modificar no existeix.
+
+Test modificarDocument
+
+Introdueix:
+Autor
+Titol
+Nou Contingut
+Error el document que has intentat modificar no existeix.
+
+Test modificarDocument
+
+Introdueix:
+Autor
+Titol
+Nou Contingut
+
+Test obtenirContingut
+
+Introdueix:
+Autor
+Titol
+Contingut del Document: Adria
+El señor de los Anillos
+El señor de los Anillos
+
+Test numDocs
+Número de Documents :4
+
+
+Test sortir
+

@@ -1,0 +1,10 @@
+Es prova la classe Pair.java en caixa gris.
+
+Es testegen mètodes que pertànyen als casos d'ús:
+Llistar Segons Expressió Booleana.
+Llistar per similitud.
+Ordenar llistat Autors/Titols.
+
+No hi ha elements integrats ni stubs al test d'aquesta classe.
+
+Es proven tots els mètodes, per diferents parelles de valors, pels possibles tipus de valors que s'usen al nostre programa.
